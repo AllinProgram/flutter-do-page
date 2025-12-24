@@ -8,7 +8,7 @@ type: widget
 
 # DraggableScrollableActuator
 
-通知子控件[DraggableScrollableSheet](http://laomengit.com/flutter/widgets/DraggableScrollableSheet.html)重置其位置到初始化状态，调用`DraggableScrollableActuator.reset(context)`方法即可。
+通知子控件[DraggableScrollableSheet](https://mustbe.cool/flutter/widgets/DraggableScrollableSheet.html)重置其位置到初始化状态，调用`DraggableScrollableActuator.reset(context)`方法即可。
 
 ```dart
 DraggableScrollableActuator(child: DraggableScrollableSheet(

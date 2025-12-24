@@ -17,22 +17,18 @@ class WidgetSearchDelegate extends SearchDelegate<String> {
   List<Widget> buildActions(BuildContext context) {
     return [
       IconButton(
-        icon: Icon(
-          Icons.clear,
-        ),
+        icon: Icon(Icons.clear),
         onPressed: () {
           query = '';
         },
-      )
+      ),
     ];
   }
 
   @override
   Widget buildLeading(BuildContext context) {
     return IconButton(
-      icon: Icon(
-        Icons.arrow_back,
-      ),
+      icon: Icon(Icons.arrow_back),
       onPressed: () {
         close(context, '');
       },
@@ -49,10 +45,13 @@ class WidgetSearchDelegate extends SearchDelegate<String> {
         return ListTile(
           title: Text('${_list.elementAt(index).title}'),
           onTap: () {
-            toWebView(context, _list.elementAt(index).title,
-                'http://laomengit.com/${_list.elementAt(index).url}',
-                desc: _list.elementAt(index).desc,
-                tags: _list.elementAt(index).tags);
+            toWebView(
+              context,
+              _list.elementAt(index).title,
+              'https://mustbe.cool/${_list.elementAt(index).url}',
+              desc: _list.elementAt(index).desc,
+              tags: _list.elementAt(index).tags,
+            );
           },
         );
       },
@@ -76,10 +75,13 @@ class WidgetSearchDelegate extends SearchDelegate<String> {
         return ListTile(
           title: Text('${_list.elementAt(index).title}'),
           onTap: () {
-            toWebView(context, _list.elementAt(index).title,
-                'http://laomengit.com/${_list.elementAt(index).url}',
-                desc: _list.elementAt(index).desc,
-                tags: _list.elementAt(index).tags);
+            toWebView(
+              context,
+              _list.elementAt(index).title,
+              'https://mustbe.cool/${_list.elementAt(index).url}',
+              desc: _list.elementAt(index).desc,
+              tags: _list.elementAt(index).tags,
+            );
           },
         );
       },

@@ -6,7 +6,7 @@ type: widget
 
 # ListBody
 
-ListBody是一个沿着给定轴顺序排列子组件的组件，此控件不是很常用，通常使用[ListView](http://laomengit.com/flutter/widgets/ListView.html)和[Column和Row](http://laomengit.com/flutter/widgets/Column.html)。
+ListBody是一个沿着给定轴顺序排列子组件的组件，此控件不是很常用，通常使用[ListView](https://mustbe.cool/flutter/widgets/ListView.html)和[Column和Row](https://mustbe.cool/flutter/widgets/Column.html)。
 
 基本用法如下：
 

@@ -43,7 +43,7 @@ ButtonTheme(
 
 `padding`：内边距
 
-`shape`：形状，所有形状查看[ShapeBorder](http://laomengit.com/flutter/widgets/ShapeBorder.html)
+`shape`：形状，所有形状查看[ShapeBorder](https://mustbe.cool/flutter/widgets/ShapeBorder.html)
 
 `buttonColor`：按钮颜色
 
@@ -57,5 +57,5 @@ ButtonTheme(
 
 `splashColor`：水波纹颜色
 
-`materialTapTargetSize`：配置组件点击区域大小，具体查看[MaterialTapTargetSize](http://laomengit.com/flutter/widgets/MaterialTapTargetSize.html)
+`materialTapTargetSize`：配置组件点击区域大小，具体查看[MaterialTapTargetSize](https://mustbe.cool/flutter/widgets/MaterialTapTargetSize.html)
 

@@ -28,7 +28,7 @@ NotificationListener(
 flutter: child:SizeChangedLayoutNotification()
 ```
 
-[NotificationListener](http://laomengit.com/flutter/widgets/NotificationListener.html) 是接收通知到组件。
+[NotificationListener](https://mustbe.cool/flutter/widgets/NotificationListener.html) 是接收通知到组件。
 
 ## SizeChangedLayoutNotification
 

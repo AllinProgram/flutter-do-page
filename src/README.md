@@ -1,1 +1,1 @@
-自部署静态站点，解决[老孟主站](http://laomengit.com/flutter/widgets/widgets_structure.html)图片无法加载。
+自部署静态站点，解决[老孟主站](https://mustbe.cool/flutter/widgets/widgets_structure.html)图片无法加载。

@@ -6,7 +6,7 @@ type: widgets
 
 # BackButtonIcon
 
-看名字你以为这是一个Button，其实是一个Icon，没有点击效果，具有点击效果的组件是[BackButton](http://laomengit.com/flutter/widgets/Button.html#backbutton)
+看名字你以为这是一个Button，其实是一个Icon，没有点击效果，具有点击效果的组件是[BackButton](https://mustbe.cool/flutter/widgets/Button.html#backbutton)
 
 用法如下：
 

@@ -201,5 +201,5 @@ CustomScrollView(
 
 
 
-`physics`表示可滚动组件的物理滚动特性，具体查看[ScrollPhysics](http://laomengit.com/flutter/widgets/ScrollPhysics.html)
+`physics`表示可滚动组件的物理滚动特性，具体查看[ScrollPhysics](https://mustbe.cool/flutter/widgets/ScrollPhysics.html)
 

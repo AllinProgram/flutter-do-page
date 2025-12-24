@@ -323,7 +323,7 @@ dependencies:
     sdk: flutter    
 ```
 
-在顶级控件MaterialApp添加支持，具体信息可查[MaterialApp控件](http://laomengit.com/flutter/widgets/MaterialApp.html)：
+在顶级控件MaterialApp添加支持，具体信息可查[MaterialApp控件](https://mustbe.cool/flutter/widgets/MaterialApp.html)：
 
 ```dart
 MaterialApp(

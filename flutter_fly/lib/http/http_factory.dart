@@ -11,13 +11,16 @@ class HttpFactory {
 
   static HttpFactory _instance;
 
-  static const String _host = "http://laomengit.com/";
+  static const String _host = "https://mustbe.cool/";
 
   Dio _dio;
 
   HttpFactory._() {
     var options = BaseOptions(
-        baseUrl: '$_host', connectTimeout: 5000, receiveTimeout: 3000);
+      baseUrl: '$_host',
+      connectTimeout: 5000,
+      receiveTimeout: 3000,
+    );
     _dio = Dio(options);
   }
 

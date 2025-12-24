@@ -128,7 +128,7 @@ RawChip(
 
 ![](../img/Chip/image-20200506175545135.png)
 
-`materialTapTargetSize`属性控制最小点击区域，详情查看：[MaterialTapTargetSize](http://laomengit.com/flutter/widgets/MaterialTapTargetSize.html)
+`materialTapTargetSize`属性控制最小点击区域，详情查看：[MaterialTapTargetSize](https://mustbe.cool/flutter/widgets/MaterialTapTargetSize.html)
 
 
 

@@ -9,7 +9,7 @@ type: widgets
 
 
 
-CupertinoNavigationBarBackButton是一个导航后退按钮，通常用在[CupertinoNavigationBar](http://laomengit.com/flutter/widgets/CupertinoNavigationBar.html#cupertinonavigationbar)中，用法如下：
+CupertinoNavigationBarBackButton是一个导航后退按钮，通常用在[CupertinoNavigationBar](https://mustbe.cool/flutter/widgets/CupertinoNavigationBar.html#cupertinonavigationbar)中，用法如下：
 
 ```dart
 CupertinoNavigationBarBackButton(

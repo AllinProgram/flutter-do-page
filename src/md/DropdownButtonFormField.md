@@ -77,9 +77,9 @@ DropdownButtonFormField(
 
 ![image-20200526123158187](../img/DropdownButtonFormField/image-20200526123158187.png)
 
-`decoration`是装饰属性，具体信息查看[InputDecoration](http://laomengit.com/flutter/widgets/InputDecoration.html)
+`decoration`是装饰属性，具体信息查看[InputDecoration](https://mustbe.cool/flutter/widgets/InputDecoration.html)
 
-`onSaved`和`validator`是[FormField](http://laomengit.com/flutter/widgets/Form.html#formfield)组件的相关参数。
+`onSaved`和`validator`是[FormField](https://mustbe.cool/flutter/widgets/Form.html#formfield)组件的相关参数。
 
-而剩余属性均为[DropdownButton](http://laomengit.com/flutter/widgets/Button.html#dropdownbutton)属性。
+而剩余属性均为[DropdownButton](https://mustbe.cool/flutter/widgets/Button.html#dropdownbutton)属性。
 

@@ -1,5 +1,5 @@
 
-> 官网地址：[http://laomengit.com/plugin/upgrade.html](http://laomengit.com/plugin/upgrade.html)
+> 官网地址：[https://mustbe.cool/plugin/upgrade.html](https://mustbe.cool/plugin/upgrade.html)
 
 # 添加依赖
 

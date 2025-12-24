@@ -19,7 +19,7 @@ InputDecorator(
 
 ![image-20200527161230527](../img/InputDecorator/image-20200527161230527.png)
 
-`decoration`属性是外观装饰，详情查看[InputDecoration](http://laomengit.com/flutter/widgets/InputDecoration.html)
+`decoration`属性是外观装饰，详情查看[InputDecoration](https://mustbe.cool/flutter/widgets/InputDecoration.html)
 
 
 

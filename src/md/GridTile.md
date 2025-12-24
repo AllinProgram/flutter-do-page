@@ -60,7 +60,7 @@ GridTile(
 
 ## GridTileBar
 
-GridTileBar用于[GridTile](http://laomengit.com/flutter/widgets/GridTile.html) 组件中，做为header或者footer。
+GridTileBar用于[GridTile](https://mustbe.cool/flutter/widgets/GridTile.html) 组件中，做为header或者footer。
 
 用法如下：
 

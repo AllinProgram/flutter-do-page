@@ -35,8 +35,9 @@ class _WidgetPageState extends State<WidgetPage> {
     await WidgetDb().initDb();
     widgetInfoList = await WidgetDb().findAll();
     if (widgetInfoList.length <= 150) {
-      var jsonStr = await DefaultAssetBundle.of(context)
-          .loadString('assets/json/widgets.json');
+      var jsonStr = await DefaultAssetBundle.of(
+        context,
+      ).loadString('assets/json/widgets.json');
       List<dynamic> jsonData = json.decode(jsonStr);
       widgetInfoList = getWidgetInfoList(jsonData);
       _saveDb(widgetInfoList);
@@ -70,10 +71,7 @@ class _WidgetPageState extends State<WidgetPage> {
       child: Text(
         '$susTag',
         softWrap: false,
-        style: TextStyle(
-          fontSize: 14.0,
-          color: Color(0xff999999),
-        ),
+        style: TextStyle(fontSize: 14.0, color: Color(0xff999999)),
       ),
     );
   }
@@ -90,9 +88,7 @@ class _WidgetPageState extends State<WidgetPage> {
           height: _itemHeight.toDouble(),
           child: _buildWidgetItem(model.widgetInfo),
         ),
-        Divider(
-          height: 1,
-        )
+        Divider(height: 1),
       ],
     );
   }
@@ -101,8 +97,13 @@ class _WidgetPageState extends State<WidgetPage> {
     return ListTile(
       title: Text(info.title),
       onTap: () {
-        toWebView(context, info.title, 'http://laomengit.com/${info.url}',
-            desc: info.desc, tags: info.tags);
+        toWebView(
+          context,
+          info.title,
+          'https://mustbe.cool/${info.url}',
+          desc: info.desc,
+          tags: info.tags,
+        );
       },
     );
   }
@@ -112,16 +113,17 @@ class _WidgetPageState extends State<WidgetPage> {
     return Column(
       children: <Widget>[
         Expanded(
-            flex: 1,
-            child: AzListView(
-              data: _widgetList,
-              itemBuilder: (context, model) => _buildListItem(model),
-              suspensionWidget: _buildSusWidget(_suspensionTag),
-              isUseRealIndex: true,
-              itemHeight: _itemHeight,
-              suspensionHeight: _suspensionHeight,
-              onSusTagChanged: _onSusTagChanged,
-            )),
+          flex: 1,
+          child: AzListView(
+            data: _widgetList,
+            itemBuilder: (context, model) => _buildListItem(model),
+            suspensionWidget: _buildSusWidget(_suspensionTag),
+            isUseRealIndex: true,
+            itemHeight: _itemHeight,
+            suspensionHeight: _suspensionHeight,
+            onSusTagChanged: _onSusTagChanged,
+          ),
+        ),
       ],
     );
   }
